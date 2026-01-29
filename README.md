@@ -59,3 +59,7 @@ A full-stack real-time chat application built with the MERN stack, featuring ins
 - **Cloudinary** - Cloud image storage
 - **Cookie Parser** - Cookie handling
 - **CORS** - Cross-origin resource sharing
+  
+
+![chatgif](https://github.com/user-attachments/assets/9ee4e301-0e3f-43b7-81db-03929a3a0512)
+

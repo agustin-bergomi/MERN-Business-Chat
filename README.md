@@ -22,7 +22,7 @@ Aplicación de chat en tiempo real hecha con **MERN**. Permite registrarse, logu
 - Estado online de los usuarios
 - Scroll automático al último mensaje
 
-### Experiencia de uso
+### Experiencia de usuario
 - Diseño responsive (funciona bien en desktop y mobile)
 - Modo claro / oscuro
 - Loaders mientras carga la info

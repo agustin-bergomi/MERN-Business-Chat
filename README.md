@@ -1,65 +1,65 @@
-# 💬 Real-Time Chat Application
+# 💬 App de Chat en Tiempo Real
 
-A full-stack real-time chat application built with the MERN stack, featuring instant messaging, user authentication, and cloud-based image storage.
+Aplicación de chat en tiempo real hecha con **MERN**. Permite registrarse, loguearse y chatear al instante con otros usuarios, incluyendo mensajes de texto e imágenes.
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-green)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![React](https://img.shields.io/badge/React-18+-blue)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
 
-## 🚀 Features
+## 🚀 Qué tiene la app
 
-### Authentication & User Management
-- **Secure Authentication**: JWT-based authentication with HTTP-only cookies
-- **User Registration & Login**: Complete signup and login flow with validation
-- **Profile Management**: Update user profiles with image uploads
-- **Session Management**: Persistent sessions with automatic authentication checks
+### Usuarios y autenticación
+- Registro y login de usuarios
+- Autenticación con JWT usando cookies
+- Sesión persistente (si refrescás, seguís logueado)
+- Perfil de usuario con imagen
 
-### Real-Time Messaging
-- **Instant Messaging**: Real-time bidirectional communication using WebSockets
-- **Text & Image Messages**: Send both text messages and image attachments
-- **Online Status**: See which users are currently online
-- **Message History**: Persistent message storage with timestamps
-- **Auto-scroll**: Automatic scrolling to latest messages
+### Chat en tiempo real
+- Mensajes en tiempo real con **Socket.io**
+- Envío de texto e imágenes
+- Historial de mensajes guardado en la base
+- Estado online de los usuarios
+- Scroll automático al último mensaje
 
-### User Experience
-- **Responsive Design**: Fully responsive UI that works on all devices
-- **Dark/Light Theme**: Multiple theme options with persistent theme selection
-- **Loading States**: Skeleton loaders for better perceived performance
-- **Toast Notifications**: User-friendly feedback for all actions
-- **Protected Routes**: Route protection based on authentication status
-
-### Backend Architecture
-- **RESTful API**: Clean REST API design with proper HTTP methods
-- **Middleware Protection**: Custom authentication middleware for route protection
-- **Cloud Storage**: Integration with cloud storage service for image handling
-- **Database Modeling**: Efficient NoSQL schema design with relationships
-- **Error Handling**: Comprehensive error handling throughout the application
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React** - UI library
-- **React Router** - Client-side routing
-- **State Management** - Global state management library
-- **HTTP Client** - Promise-based HTTP client
-- **WebSocket Client** - Real-time communication
-- **CSS Framework** - Utility-first CSS framework
-- **UI Components** - Component library
-- **Toast Notifications** - User feedback system
+### Experiencia de uso
+- Diseño responsive (funciona bien en desktop y mobile)
+- Modo claro / oscuro
+- Loaders mientras carga la info
+- Notificaciones simples (toasts)
+- Rutas protegidas (si no estás logueado no entrás)
 
 ### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - ODM for MongoDB
-- **Socket.io** - WebSocket library
-- **JWT** - Authentication tokens
-- **bcryptjs** - Password hashing
-- **Cloudinary** - Cloud image storage
-- **Cookie Parser** - Cookie handling
-- **CORS** - Cross-origin resource sharing
-  
+- API REST con Express
+- Middleware para proteger rutas
+- Manejo de errores básico
+- Subida de imágenes a la nube
+- Modelos con Mongoose
+
+## 🛠️ Tecnologías
+
+### Frontend
+- React
+- React Router
+- Manejo de estado global
+- Cliente HTTP
+- Socket.io client
+- Tailwind CSS (u otro framework de estilos)
+- Componentes reutilizables
+
+### Backend
+- Node.js
+- Express
+- MongoDB + Mongoose
+- Socket.io
+- JWT
+- bcrypt
+- Cloudinary
+- Cookies y CORS
+
+## 📸 Preview
 
 ![chatgif](https://github.com/user-attachments/assets/9ee4e301-0e3f-43b7-81db-03929a3a0512)
 
+## 📦 Notas
+Proyecto hecho con fines prácticos y de aprendizaje. Ideal como base para seguir agregando features como grupos, mensajes leídos, roles, etc.

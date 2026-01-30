@@ -61,5 +61,3 @@ Aplicación de chat en tiempo real hecha con **MERN**. Permite registrarse, logu
 
 ![chatgif](https://github.com/user-attachments/assets/9ee4e301-0e3f-43b7-81db-03929a3a0512)
 
-## 📦 Notas
-Proyecto hecho con fines prácticos y de aprendizaje. Ideal como base para seguir agregando features como grupos, mensajes leídos, roles, etc.
